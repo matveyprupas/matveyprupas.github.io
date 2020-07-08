@@ -11,7 +11,7 @@ body{
     /* position: relative; */
     width: 1600px;
     height: 880px;
-    background-image: url(/img/1.png);
+    background-image: url(../img/1.png);
     background-position: 25% 10%;
     display: flex;
     flex-direction: column;
@@ -431,7 +431,7 @@ h3{
 .sixth_block{
     width: 1600px;
     height: 850px;
-    background-image: url(/img/6_bg_block.png);
+    background-image: url(../img/6_bg_block.png);
     color: white;
     display: flex;
     flex-direction: row;
@@ -581,7 +581,7 @@ h3{
 .eighth_block{
     width: 1600px;
     height: 850px;
-    background-image: url(/img/8_bg_block.png);
+    background-image: url(../img/8_bg_block.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
