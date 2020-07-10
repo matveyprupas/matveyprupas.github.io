@@ -1,0 +1,681 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url(../fonts/ProximaNova-Extrabld.ttf);
+}
+
+@font-face {
+    font-family: 'Proxima Nova Black';
+    src: url(../fonts/ProximaNova-Black.ttf);
+}
+
+body{
+    width: 1920px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Proxima Nova;
+    font-size: 16px;
+
+}
+
+.header {
+    width: 100%;
+    /* background: #000; */
+}
+
+.contact_header{
+    height: 44px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0E94D1;
+    padding-left: 375px;
+    padding-right: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_networks{
+    width: 150px;
+    /* background: gray; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.social_networks img{
+    margin: 4px;
+}
+
+.contact_phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 103px;
+}
+
+.phone_button{
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    background: #0E94D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_phone span{
+    font-family: Proxima Nova Bold;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu_header{
+    background: #0E94D1;
+    padding-left: 375px;
+    padding-right: 375px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Proxima Nova Bold;
+}
+
+.menu_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 435px;
+    font-size: 18px;
+}
+
+.booking_button{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #0E94D1;
+}
+
+.our_clinics{
+    width: 100%;
+    background: #F7F9FA;
+    height: 1509px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.upper_clinics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+
+}
+
+.lower_clinics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 33px;
+
+}
+
+.first_clinic{
+    width: 570px;
+    height: 704px;
+    box-shadow: 0 0 10px #dcdddf; 
+    margin-left: 375px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.second_clinic{
+    width: 570px;
+    height: 704px;
+    box-shadow: 0 0 10px #dcdddf; 
+    margin-right: 375px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clinic_contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 570px;
+    height: 120px;
+    font-size: 14px;
+    background: #F7F9FA;
+    border-radius: 12px 12px 0 0 ;
+}
+
+.clinic_logo{
+    background: #FFFFFF;
+    border: 2px solid #1092D0;
+    border-radius: 40px;
+    width: 67px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+}
+
+.clinic_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 22px;
+    height: 77px;
+}
+
+.clinic_city{
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Black';
+    color: #0191CE;
+    font-size: 33px;
+    
+}
+
+.clinic_phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63px;
+}
+
+.clinic_address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clinic_address a{
+    margin-left: 11px;
+}
+
+.working_hours_clinic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+}
+
+.working_hours_clinic span{
+    margin-left: 11px;
+}
+
+.clinic_phone_button{
+    height: 48px;
+    width: 48px;
+    background: #DBEBF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.phone_number{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 18px;
+    height: 36px;
+}
+
+.photo_slider_1{
+    background-image: url(../img/MaskGroup.png);
+    width: 570px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo_slider_2{
+    background-image: url(../img/MaskGroup_2.png);
+    width: 570px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo_slider_3{
+    background-image: url(../img/MaskGroup_2.png);
+    width: 570px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_button_left {
+    width: 50px;
+    height: 50px;
+    background: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 35px;
+}
+
+.slider_button_right {
+    width: 50px;
+    height: 50px;
+    background: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 35px;
+}
+
+.slider_button_right img {
+    transform: rotate(180deg);
+}
+
+.clinic_service{
+    width: 532px;
+    height: 249px;
+    overflow: hidden;
+    margin-left: 38px;
+}
+
+.clinic_service h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #425159;
+    margin-top: 27px;
+}
+
+.clinic_service ul{
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    margin-top: 15px;
+}
+
+.clinic_service li:before{
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    vertical-align: middle;
+    border-radius:50%;
+    background-color:#C4F0FB;
+    margin-right: 25px;
+}
+
+.clinic_service li{
+    color: #C4F0FB;
+    text-transform: none;
+    list-style: none;
+    /* list-style-position: inside; */
+    /* width: 8px;
+    height: 8px; */
+}
+
+.clinic_service li span{
+    color: #333333;
+}
+
+.clinic_buttons{
+    width: 570px;
+    height: 85px;
+    background: #F7F9FA;
+    box-shadow: 0px -35px 30px -10px #ecf5f9e6;
+    border-radius: 0px 0px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site_button{
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    background: #0191CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Proxima Nova Bold';
+    margin-left: 35px;
+}
+
+.record_button{
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    background: #F3921F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Proxima Nova Bold';
+    margin-right: 35px;
+}
+
+.next_clinic{
+    width: 570px;
+    height: 704px;
+    box-shadow: 0 0 10px #dcdddf; 
+    margin-right: 375px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.next_clinic img{
+    margin-top: 202px;
+}
+
+.next_clinic span{
+    font-family: 'Proxima Nova Bold';
+    color: #0191CE;
+    font-size: 24px;
+    margin-top: 43px;
+}
+
+.about{
+    width: 100%;
+    height: 445px;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about_left{
+    padding-left: 375px;
+    height: 100%;
+    width: 1545px;
+    background: #0191CE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 590px;
+    height: 100%;
+    color: white;
+}
+
+.about_text h1{
+    font-family: 'Proxima Nova Black';
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 34px;   
+}
+
+.about_text p{
+    margin-top: 18px;
+    line-height: 1.2;
+}
+
+.about_img{
+    background-image: url(../img/Union.svg);
+    width: 849px;
+    height: 380px;
+    position: absolute;
+    right: -372px;
+    top: 30px;
+    /* margin-left: 273px; */
+    z-index: 1;
+}
+
+.about_union{
+    /* background-image: url(../img/Union.svg); */
+    /* height: 100%; */
+    z-index: -10;
+    position: absolute;
+    top: 45px;
+    left: 43px;
+
+}
+
+.about_union_rectangle{
+    width: 75px;
+    height: 45px;
+    position: absolute;
+    z-index: 2;
+    left: 232px;
+    background: white;
+}
+
+.about_arrow{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    /* z-index: 2; */
+    left: 329px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_right{
+    height: 445px;
+    width: 375px;
+    /* background: blue; */
+}
+
+.about_right_rectangle{
+    background: #0191CE;
+    height: 335px;
+    width: 375px;
+    margin-top: 75px;
+    position: relative;
+    z-index: 2;
+}
+
+.advantages{
+    width: 100%;
+    height: 646px;
+    padding: 0px 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.advantages h1{
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Black';
+    font-size: 30px;
+    color: #0191CE;
+    margin-top: 35px;
+    
+}
+
+.upper_advantages{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 34px;
+
+}
+
+.lower_advantages{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 44px;
+
+}
+
+.advantage{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    /* margin-bottom: 28px; */
+}
+
+.advantage h1{
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Proxima Nova Bold';
+    font-size: 18px;
+    margin-top: 23px;
+}
+
+.advantage span{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer{
+    background: #0E94D1;
+    width: 100%;
+    padding: 0px 375px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer_logo{
+    line-height: 1.3;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 229px;
+    color: white;
+    margin-top: 35px;
+}
+
+.footer_logo span{
+    margin-top: 8px;
+}
+
+.csf{
+    margin-top: 304px;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.upper_links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+
+.med_links{
+    color: white;
+}
+
+.med_1{
+    width: 276px;
+    margin-left: 71px;
+}
+
+.med_2{
+    width: 270px;
+    margin-left: 24px;
+
+}
+
+.med_3{
+    width: 292px;
+    margin-left: 30px;
+
+}
+
+.links{
+    /* line-height: 1.5; */
+    margin-top: 11px;
+
+}
+
+.med_links h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    word-wrap: normal;
+
+}
+.med_links a{
+    display: block;
+    margin-bottom: 11px;
+}
+
+.lower_links{
+    margin-top: 23px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #C4F0FB;
+    font-size: 18px;
+}
+
+.lower_links span{
+    display: block;
+}
+
+.working_hours_med a{
+    margin-top: 11px;
+    display: block;
+}
+
+.phone_number_footer{
+    margin-top: 17px;
+}
