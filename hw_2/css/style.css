@@ -32,7 +32,6 @@ body{
 
 .header {
     width: 100%;
-    /* background: #000; */
 }
 
 .contact_header{
@@ -66,6 +65,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 103px;
+    margin-right: 48px;
 }
 
 .phone_button{
@@ -104,6 +104,16 @@ body{
     font-size: 18px;
 }
 
+.menu_buttons a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu_buttons a:hover {
+    color: #ACDBF4;
+}
+
 .booking_button{
     height: 50px;
     width: 200px;
@@ -112,7 +122,7 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
-    color: #0E94D1;
+    color: #333333;
 }
 
 .our_clinics{
@@ -171,7 +181,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 570px;
+    width: 100%;
     height: 120px;
     font-size: 14px;
     background: #F7F9FA;
@@ -190,13 +200,27 @@ body{
     margin-left: 38px;
 }
 
+.clinic_header_info_2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.clinic_header_info_3{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .clinic_header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 22px;
-    height: 77px;
+    height: 100%;
 }
 
 .clinic_city{
@@ -222,6 +246,7 @@ body{
 
 .clinic_address a{
     margin-left: 11px;
+    color: #0191CE; 
 }
 
 .working_hours_clinic{
@@ -251,12 +276,12 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 18px;
-    height: 36px;
+    height: 100%;
 }
 
 .photo_slider_1{
     background-image: url(../img/MaskGroup.png);
-    width: 570px;
+    width: 100%;
     height: 250px;
     display: flex;
     justify-content: space-between;
@@ -265,7 +290,7 @@ body{
 
 .photo_slider_2{
     background-image: url(../img/MaskGroup_2.png);
-    width: 570px;
+    width: 100%;
     height: 250px;
     display: flex;
     justify-content: space-between;
@@ -293,6 +318,10 @@ body{
     margin-left: 35px;
 }
 
+.slider_button_left:hover {
+    background: #0E94D1;
+}
+
 .slider_button_right {
     width: 50px;
     height: 50px;
@@ -305,15 +334,28 @@ body{
     margin-right: 35px;
 }
 
+.slider_button_right:hover {
+    background: #0E94D1;
+    color: white;
+}
+
 .slider_button_right img {
     transform: rotate(180deg);
 }
 
+.clinic_service_div{
+    width: 100%;
+}
+
 .clinic_service{
-    width: 532px;
+    width: 93.333%;
     height: 249px;
     overflow: hidden;
     margin-left: 38px;
+}
+
+.clinic_service a {
+    color: #0191CE;
 }
 
 .clinic_service h1{
@@ -327,6 +369,7 @@ body{
     font-size: 20px;
     /* text-transform: uppercase; */
     margin-top: 15px;
+    line-height: 1.4;
 }
 
 .clinic_service li:before{
@@ -354,7 +397,7 @@ body{
 }
 
 .clinic_buttons{
-    width: 570px;
+    width: 100%;
     height: 85px;
     background: #F7F9FA;
     box-shadow: 0px -35px 30px -10px #ecf5f9e6;
@@ -400,7 +443,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-}
+}    
+
 
 .next_clinic img{
     margin-top: 202px;
@@ -411,6 +455,7 @@ body{
     color: #0191CE;
     font-size: 24px;
     margin-top: 43px;
+    text-align: center;
 }
 
 .about{
@@ -505,6 +550,10 @@ body{
     /* background: blue; */
 }
 
+.about_tablet_lower{
+    display: none;
+}
+
 .about_right_rectangle{
     background: #0191CE;
     height: 335px;
@@ -534,7 +583,7 @@ body{
 }
 
 .upper_advantages{
-    width: 1170px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -543,7 +592,7 @@ body{
 }
 
 .lower_advantages{
-    width: 1170px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -559,6 +608,7 @@ body{
     align-items: center;
     color: #333333;
     /* margin-bottom: 28px; */
+    text-align: center;
 }
 
 .advantage h1{
@@ -570,7 +620,6 @@ body{
 }
 
 .advantage span{
-    text-align: center;
     margin-top: 10px;
     font-size: 14px;
     line-height: 1.5;
@@ -604,6 +653,10 @@ body{
 
 .csf{
     margin-top: 304px;
+}
+
+.footer_logo a:hover {
+    color: white;
 }
 
 .footer_links{
@@ -656,6 +709,14 @@ body{
 .med_links a{
     display: block;
     margin-bottom: 11px;
+    color: white;
+    text-decoration: none;
+}
+
+.med_links a:hover {
+    color: #ACDBF4;
+    text-decoration: underline;
+
 }
 
 .lower_links{
@@ -674,8 +735,387 @@ body{
 .working_hours_med a{
     margin-top: 11px;
     display: block;
+    text-decoration: none;
+    color: #C4F0FB;
+}
+
+.working_hours_med a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.working_hours_med .a_email {
+    color: white;
+    text-decoration: underline;
 }
 
 .phone_number_footer{
     margin-top: 17px;
+}
+
+.footer_tablet{
+    display: none;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    .contact_header{
+        /* background: red; */
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;
+    }
+
+    .social_networks {
+        margin-left: 15px;
+    }
+
+    .contact_phone{
+        margin-right: 44px;
+    }
+
+    .menu_header {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;
+    }
+
+    .menu_header img{
+        margin-left: 16px;
+    }
+
+    .menu_buttons {
+        width: 264px;
+        font-size: 16px;
+    }
+
+    .booking_button {
+        margin-right: 15px;
+    }
+
+    .our_clinics{
+        height: 1737px;
+        width: 768px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;
+    }
+
+    .first_clinic{
+        margin-left: 16px;
+        width: 360px;
+        height: 801px;
+    }
+
+    .second_clinic{
+        margin-right: 16px;
+        width: 360px;
+        height: 801px;
+    }
+
+    .next_clinic {
+        width: 360px;
+        height: 801px;
+        margin-right: 16px;
+    }
+
+    .next_clinic span{
+        width: 75%;
+    }
+
+    .clinic_contact{
+        height: 155px;
+        align-items: flex-start;
+    }
+
+    .clinic_logo{
+        margin-top: 15px;
+    }
+
+    .clinic_header_info_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 22px;
+        margin-top: 19px;
+    }
+
+    .clinic_header_info_3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 22px;
+        margin-top: 7px;
+    }
+
+    .clinic_header{
+        margin-left: 0px;
+        justify-content: flex-start;
+    }
+
+    .clinic_address {
+        margin-top: 2px;
+    
+    }
+    
+    .working_hours_clinic{
+        margin-top: 2px;
+    }
+
+    .clinic_phone{
+        margin-left: 0px;
+    }
+
+    .clinic_phone_button{
+        display: none;
+    }
+
+    .phone_number{
+        justify-content: flex-start;
+        margin-top: 6px;
+        margin-left: 0px;
+    }
+
+    .phone_number span{
+        line-height: 1.3;
+    }
+
+    .clinic_service {
+        width: 89.444%;
+    }
+
+    .clinic_service h1{
+        font-size: 20px;
+    }
+
+    .clinic_service li{
+        /* padding-left: 20px; */
+        font-size: 15px;
+    }
+
+    .photo_slider_1{
+        background-image: url(../img/MaskGroup_slider_1.png);
+    }
+    
+    .photo_slider_2{
+        background-image: url(../img/MaskGroup_slider_2.png);
+    }
+    
+    .clinic_buttons {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .site_button{
+        margin-left: 0px;
+    }
+
+    .record_button{
+        margin-right: 0px;
+    }
+
+    .about {
+        height: 815px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 768px;
+        
+    }
+
+    .about_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0px;
+        width: 768px;
+        height: 100%;
+    }
+
+    .about_text {
+        /* height: 323px; */
+        width: 701px;
+    }
+
+    .about_text h1{
+        margin-top: 34px;
+        margin-bottom: 8px;
+    }
+
+    .about_text p{
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .about_img{
+        display: none;
+    }
+
+    .about_right{
+        display: none;
+    }
+
+    .about_tablet_lower{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        width: 768px;
+        height: 100%;
+        background: #0191CE;
+        padding-top: 56px;
+        border: none;
+    }
+
+    .about_tablet_img{
+        background-image: url(../img/Union.svg);
+        width: 576px;
+        height: 380px;
+        position: relative;
+        /* right: 100px; */
+        /* top: 0px; */
+        /* margin-left: 273px; */
+        z-index: 1;
+        margin-left: 79px;
+    }
+    
+    
+    .about_tablet_right{
+        height: 421px;
+        width: 113px;
+        background: white;
+        position: relative;
+    }
+    
+    .about_right_rectangle{
+        height: 335px;
+        width: 113px;
+        position: absolute;
+        margin-top: 45px;
+        
+        background: #0191CE;
+
+    }
+   
+    .advantages{
+        height: 716px;
+        width: 768px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;
+    }
+
+    .advantages h1{
+        margin-left: 16px;
+        margin-top: 38px;
+    }
+    
+    .upper_advantages{
+        width: 100%;
+        margin-top: 32px;
+    }
+    .lower_advantages{
+        width: 100%;
+        margin-top: 23px;
+    }
+
+    .advantage{
+        margin-left: 16px;
+        width: 233px;
+    }
+
+    .advantage h1{
+        margin-left: 0px;
+        margin-top: 23px;
+    }
+
+    .footer{
+        height: 550px;
+        width: 768px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;    }
+
+    .footer_logo{
+        display: none;
+    }
+  
+    .upper_links{
+        justify-content: space-around;
+        width: 768px;
+    }
+
+    .lower_links{
+        justify-content: space-around;
+        width: 768px;
+    }
+
+    .med_links{
+        width: 233px;
+        margin-left: 0px;
+    }
+
+    .working_hours_med{
+        width: 233px;
+        margin-left: 0px;
+    }
+
+    .footer_tablet{
+        height: 115px;
+        width: 768px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 576px;
+        margin-right: 576px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #0E94D1;
+        box-shadow: 0px -5px 15px 0px #5e5d5d99;
+
+    }
+
+    .footer_tablet_logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .footer_tablet_logo span{
+        width: 244px;
+        margin-left: 33px;
+        font-size: 14px;
+        line-height: 1.3;
+        color: white;
+    }
+
+    .csf_tablet{
+        margin-right: 23px;
+    }
+
+
+
+
+
 }
