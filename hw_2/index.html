@@ -4,463 +4,450 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CityClinic</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/32_32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/48_48.png">
     <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+
+    <header>
         <div class="contact_header">
-            <div class="social_networks">
-                <img src="img/vk.svg">
-                <img src="img/facebook-letter-logo (1).svg">
-                <img src="img/instagram.svg">
-            </div>
-            <div class="contact_phone">
-                <div class="phone_button">
-                    <img src="img/phone-receiver (1).svg">
+            <div class="container">
+                <div class="social_networks">
+                    <a href="https://www.onliner.by/"><img src="img/vk.svg"></a>
+                    <a href="https://www.onliner.by/"><img src="img/facebook-letter-logo (1).svg"></a>
+                    <a href="https://www.onliner.by/"><img src="img/instagram.svg"></a>
                 </div>
-                <span>8800</span>
+                <a href="tel:8800" class="contact_phone">
+                    <div class="phone_button">
+                        <img src="img/phone-receiver (1).svg">
+                    </div>
+                    <span>8800</span>
+                </a>
             </div>
+            
         </div>
         <div class="menu_header">
-            <img src="img/logo.svg" alt="Logo">
-            <div class="menu_buttons">
-                <a href="">Центры</a>
-                <a href="">О нас</a>
-                <a href="">Преимущества</a>
-            </div>  
-            <div class="menu_buttons_mobile">
-                <div class="booking_button">
-                    Записаться
+            <div class="container">
+                <a href="">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+                <div class="menu_buttons">
+                    <a href="">Центры</a>
+                    <a href="">О нас</a>
+                    <a href="">Преимущества</a>
+                </div>  
+                <div class="menu_buttons_mobile">
+                    <a href="" class="booking_button">
+                        Записаться
+                    </a>
+                    <div class="menu_button">
+                        <img src="img/menu_button_mobile.svg">
+                    </div>
                 </div>
-                <div class="menu_button">
-                    <img src="img/menu_button_mobile.svg">
-                </div>
+                
             </div>
-            
         </div>
-    </div>
+        
+    </header>
+        
     <div class="our_clinics">
-        <div class="upper_clinics">
-            <div class="first_clinic">
-                <div class="clinic_contact">
-                    <div class="clinic_logo">
-                        <img src="img/doctor 1.svg">
-                    </div>
-                    <div class="clinic_header_info_2">
-                        <div class="clinic_header">
-                            <div class="clinic_city">
-                                Минск
-                            </div>
-                            <div class="clinic_address">
-                                <img src="img/maps-and-flags (3).svg">
-                                <a href="https://yandex.by/maps/157/minsk/house/Zk4YcgNiT0EEQFtpfXVzc3ViZA==/?ll=27.442643%2C53.922910&z=16.31">
-                                    ул. Жиновича, д. 21
-                                </a>
-                            </div>
-                            <div class="working_hours_clinic">
-                                <img src="img/clock-circular-outline 2.svg">
-                                <span>8:00 — 20:00</span>
-                            </div>
-                        </div> 
-                        <div class="clinic_phone">
-                            <div class="clinic_phone_button">
-                                <img src="img/phone-receiver-blue.svg">
-                            </div>
-                            <div class="phone_number">
-                                <span>+375 29 <strong>390-05-80</strong></span>
-                                <span>+375 29 <strong>835-05-80</strong></span>
+        <div class="container_column">
+            <div class="upper_clinics">
+                <div class="first_clinic">
+                    <div class="clinic_contact">
+                        <div class="clinic_logo">
+                            <img src="img/doctor 1.svg">
+                        </div>
+                        <div class="clinic_header_info_2">
+                            <div class="clinic_header">
+                                <div class="clinic_city">
+                                    Минск
+                                </div>
+                                <div class="clinic_address">
+                                    <img src="img/maps-and-flags (3).svg">
+                                    <a href="https://yandex.by/maps/157/minsk/house/Zk4YcgNiT0EEQFtpfXVzc3ViZA==/?ll=27.442643%2C53.922910&z=16.31">
+                                        ул. Жиновича, д. 21
+                                    </a>
+                                </div>
+                                <div class="working_hours_clinic">
+                                    <img src="img/clock-circular-outline 2.svg">
+                                    <span>8:00 — 20:00</span>
+                                </div>
+                            </div> 
+                            <div class="clinic_phone">
+                                <div class="clinic_phone_button">
+                                    <img src="img/phone-receiver-blue.svg">
+                                </div>
+                                <div class="phone_number">
+                                    <a href="tel:+375293900580">+375 29 <strong>390-05-80</strong></a>
+                                    <a href="tel:+375298350580">+375 29 <strong>835-05-80</strong></a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="photo_slider_1">
+                        <div class="slider_button_left">
+                            <img src="img/arrow-point-to-right (2).svg">
+                        </div>
+                        <div class="slider_button_right">
+                            <img src="img/arrow-point-to-right (2).svg">
+                        </div>
+                    </div>
+                    <div class="clinic_service_div">
+                        <div class="clinic_service">
+                            <h1>Основные услуги</h1>
+                            <ul>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Педиатрия</span></li>
+                                <li><span>Неврология</span></li>
+                                <li><span>Эндокринология</span></li>
+                                <li><span>Терапия</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Педиатрия</span></li>
+                                <li><span>Неврология</span></li>
+                                <li><span>Эндокринология</span></li>
+                                <li><span>Терапия</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clinic_buttons">
+                        <a href="" class="site_button">
+                            Перейти на сайт
+                        </a>
+                        <a href="" class="record_button">
+                            Записаться на прием
+                        </a>
+                    </div>
                 </div>
-                <div class="photo_slider_1">
-                    <div class="slider_button_left">
-                        <img src="img/arrow-point-to-right (2).svg">
+                <div class="second_clinic">
+                    <div class="clinic_contact">
+                        <div class="clinic_logo">
+                            <img src="img/tooth 3.svg">
+                        </div>
+                        <div class="clinic_header_info_3">
+                            <div class="clinic_header">
+                                <div class="clinic_city">
+                                    Витебск
+                                </div>
+                                <div class="clinic_address">
+                                    <img src="img/maps-and-flags (3).svg">
+                                    <a href="https://yandex.by/maps/154/vitebsk/house/Z0kYdANgTE0OQFtvfX14dXpgZA==/?ll=30.240590%2C55.194630&z=16.31">
+                                        пр. Фрунзе, д. 71А
+                                    </a>
+                                </div>
+                                <div class="working_hours_clinic">
+                                    <img src="img/clock-circular-outline 2.svg">
+                                    <span>8:00 — 20:00</span>
+                                </div>
+                            </div>
+                            <div class="clinic_phone">
+                                <div class="clinic_phone_button">
+                                    <img src="img/phone-receiver-blue.svg">
+                                </div>
+                                <div class="phone_number">
+                                    <a href="tel:+375296150242">+375 29 <strong>615-02-42</strong></a>
+                                    <a href="tel:+375336150242">+375 33 <strong>615-02-42</strong></a>
+                                    <a href="tel:+375256150242">+375 25 <strong>615-02-42</strong></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="slider_button_right">
-                        <img src="img/arrow-point-to-right (2).svg">
+                    <div class="photo_slider_2">
+                        <div class="slider_button_left">
+                            <img src="img/arrow-point-to-right (2).svg">
+                        </div>
+                        <div class="slider_button_right">
+                            <img src="img/arrow-point-to-right (2).svg">
+                        </div>
                     </div>
-                </div>
-                <div class="clinic_service_div">
-                    <div class="clinic_service">
-                        <h1>Основные услуги</h1>
-                        <ul>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Педиатрия</span></li>
-                            <li><span>Неврология</span></li>
-                            <li><span>Эндокринология</span></li>
-                            <li><span>Терапия</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Педиатрия</span></li>
-                            <li><span>Неврология</span></li>
-                            <li><span>Эндокринология</span></li>
-                            <li><span>Терапия</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                        </ul>
+                    <div class="clinic_service_div">
+                        <div class="clinic_service">
+                            <h1>Основные услуги</h1>
+                            <ul>
+                                <li><span>Лечение зубов</span></li>
+                                <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/detskaya-stomatologiya/">Детская сломатология</a></span></li>
+                                <li><span>Имплантация</span></li>
+                                <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/stomatologicheskaya-ortopediya/protezirovanie-zubov/">Протезирование металлокерамическими и безметаллическими конструкциями</a></span></li>
+                                <li><span>Хирургическая стоматология (удаление зубов любой сложности, все виды пластик)</span></li>
+                                <li><span>Терапия</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Педиатрия</span></li>
+                                <li><span>Неврология</span></li>
+                                <li><span>Эндокринология</span></li>
+                                <li><span>Терапия</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="clinic_buttons">
-                    <div class="site_button">
-                        Перейти на сайт
-                    </div>
-                    <div class="record_button">
-                        Записаться на прием
+                    <div class="clinic_buttons">
+                        <a href="" class="site_button">
+                            Перейти на сайт
+                        </a>
+                        <a href="" class="record_button">
+                            Записаться на прием
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="second_clinic">
-                <div class="clinic_contact">
-                    <div class="clinic_logo">
-                        <img src="img/tooth 3.svg">
-                    </div>
-                    <div class="clinic_header_info_3">
-                        <div class="clinic_header">
-                            <div class="clinic_city">
-                                Витебск
+            <div class="lower_clinics">
+                <div class="first_clinic">
+                    <div class="clinic_contact">
+                        <div class="clinic_logo">
+                            <img src="img/doctor 1.svg">
+                        </div>
+                        <div class="clinic_header_info_3">
+                            <div class="clinic_header">
+                                <div class="clinic_city">
+                                    Витебск
+                                </div>
+                                <div class="clinic_address">
+                                    <img src="img/maps-and-flags (3).svg">
+                                    <a href="https://yandex.by/maps/154/vitebsk/house/Z0kYdANgTE0OQFtvfX14dXpgZA==/?ll=30.240590%2C55.194630&z=16.31">
+                                        пр. Фрунзе, д. 71А
+                                    </a>
+                                </div>
+                                <div class="working_hours_clinic">
+                                    <img src="img/clock-circular-outline 2.svg">
+                                    <span>8:00 — 20:00</span>
+                                </div>
                             </div>
-                            <div class="clinic_address">
-                                <img src="img/maps-and-flags (3).svg">
-                                <a href="https://yandex.by/maps/154/vitebsk/house/Z0kYdANgTE0OQFtvfX14dXpgZA==/?ll=30.240590%2C55.194630&z=16.31">
-                                    пр. Фрунзе, д. 71А
-                                </a>
-                            </div>
-                            <div class="working_hours_clinic">
-                                <img src="img/clock-circular-outline 2.svg">
-                                <span>8:00 — 20:00</span>
+                            <div class="clinic_phone">
+                                <div class="clinic_phone_button">
+                                    <img src="img/phone-receiver-blue.svg">
+                                </div>
+                                <div class="phone_number">
+                                    <a href="tel:+375296150242">+375 29 <strong>615-02-42</strong></a>
+                                    <a href="tel:+375336150242">+375 33 <strong>615-02-42</strong></a>
+                                    <a href="tel:+375256150242">+375 25 <strong>615-02-42</strong></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="clinic_phone">
-                            <div class="clinic_phone_button">
-                                <img src="img/phone-receiver-blue.svg">
-                            </div>
-                            <div class="phone_number">
-                                <span>+375 29 <strong>615-02-42</strong></span>
-                                <span>+375 33 <strong>615-02-42</strong></span>
-                                <span>+375 25 <strong>615-02-42</strong></span>
-                            </div>
+                    </div>
+                    <div class="photo_slider_2">
+                        <div class="slider_button_left">
+                            <img src="img/arrow-point-to-right (2).svg">
+                        </div>
+                        <div class="slider_button_right">
+                            <img src="img/arrow-point-to-right (2).svg">
                         </div>
                     </div>
+                    <div class="clinic_service_div">
+                        <div class="clinic_service">
+                            <h1>Основные услуги</h1>
+                            <ul>
+                                <li><span>Лечение зубов</span></li>
+                                <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/detskaya-stomatologiya/">Детская сломатология</a></span></li>
+                                <li><span>Имплантация</span></li>
+                                <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/stomatologicheskaya-ortopediya/protezirovanie-zubov/">Протезирование металлокерамическими и безметаллическими конструкциями</a></span></li>
+                                <li><span>Хирургическая стоматология (удаление зубов любой сложности, все виды пластик)</span></li>
+                                <li><span>Терапия</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                                <li><span>Педиатрия</span></li>
+                                <li><span>Неврология</span></li>
+                                <li><span>Эндокринология</span></li>
+                                <li><span>Терапия</span></li>
+                                <li><span>Гинекология</span></li>
+                                <li><span>Урология</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clinic_buttons">
+                        <a href="" class="site_button">
+                            Перейти на сайт
+                        </a>
+                        <a href="" class="record_button">
+                            Записаться на прием
+                        </a>
+                    </div>
                 </div>
-                <div class="photo_slider_2">
-                    <div class="slider_button_left">
-                        <img src="img/arrow-point-to-right (2).svg">
-                    </div>
-                    <div class="slider_button_right">
-                        <img src="img/arrow-point-to-right (2).svg">
-                    </div>
-                </div>
-                <div class="clinic_service_div">
-                    <div class="clinic_service">
-                        <h1>Основные услуги</h1>
-                        <ul>
-                            <li><span>Лечение зубов</span></li>
-                            <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/detskaya-stomatologiya/">Детская сломатология</a></span></li>
-                            <li><span>Имплантация</span></li>
-                            <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/stomatologicheskaya-ortopediya/protezirovanie-zubov/">Протезирование металлокерамическими и безметаллическими конструкциями</a></span></li>
-                            <li><span>Хирургическая стоматология (удаление зубов любой сложности, все виды пластик)</span></li>
-                            <li><span>Терапия</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Педиатрия</span></li>
-                            <li><span>Неврология</span></li>
-                            <li><span>Эндокринология</span></li>
-                            <li><span>Терапия</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="clinic_buttons">
-                    <div class="site_button">
-                        Перейти на сайт
-                    </div>
-                    <div class="record_button">
-                        Записаться на прием
-                    </div>
+                <div class="next_clinic">
+                    <img src="img/Group48.svg">
+                    <span>Здесь будет следующая клиника</span>
                 </div>
             </div>
         </div>
-        <div class="lower_clinics">
-            <div class="first_clinic">
-                <div class="clinic_contact">
-                    <div class="clinic_logo">
-                        <img src="img/doctor 1.svg">
-                    </div>
-                    <div class="clinic_header_info_3">
-                        <div class="clinic_header">
-                            <div class="clinic_city">
-                                Витебск
-                            </div>
-                            <div class="clinic_address">
-                                <img src="img/maps-and-flags (3).svg">
-                                <a href="https://yandex.by/maps/154/vitebsk/house/Z0kYdANgTE0OQFtvfX14dXpgZA==/?ll=30.240590%2C55.194630&z=16.31">
-                                    пр. Фрунзе, д. 71А
-                                </a>
-                            </div>
-                            <div class="working_hours_clinic">
-                                <img src="img/clock-circular-outline 2.svg">
-                                <span>8:00 — 20:00</span>
-                            </div>
-                        </div>
-                        <div class="clinic_phone">
-                            <div class="clinic_phone_button">
-                                <img src="img/phone-receiver-blue.svg">
-                            </div>
-                            <div class="phone_number">
-                                <span>+375 29 <strong>615-02-42</strong></span>
-                                <span>+375 33 <strong>615-02-42</strong></span>
-                                <span>+375 25 <strong>615-02-42</strong></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="photo_slider_2">
-                    <div class="slider_button_left">
-                        <img src="img/arrow-point-to-right (2).svg">
-                    </div>
-                    <div class="slider_button_right">
-                        <img src="img/arrow-point-to-right (2).svg">
-                    </div>
-                </div>
-                <div class="clinic_service_div">
-                    <div class="clinic_service">
-                        <h1>Основные услуги</h1>
-                        <ul>
-                            <li><span>Лечение зубов</span></li>
-                            <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/detskaya-stomatologiya/">Детская сломатология</a></span></li>
-                            <li><span>Имплантация</span></li>
-                            <li><span><a href="https://xn--h1aaaaicer4al.xn--90ais/services/stomatologicheskaya-ortopediya/protezirovanie-zubov/">Протезирование металлокерамическими и безметаллическими конструкциями</a></span></li>
-                            <li><span>Хирургическая стоматология (удаление зубов любой сложности, все виды пластик)</span></li>
-                            <li><span>Терапия</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                            <li><span>Педиатрия</span></li>
-                            <li><span>Неврология</span></li>
-                            <li><span>Эндокринология</span></li>
-                            <li><span>Терапия</span></li>
-                            <li><span>Гинекология</span></li>
-                            <li><span>Урология</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="clinic_buttons">
-                    <div class="site_button">
-                        Перейти на сайт
-                    </div>
-                    <div class="record_button">
-                        Записаться на прием
-                    </div>
-                </div>
-            </div>
-            <div class="next_clinic">
-                <img src="img/Group48.svg">
-                <span>Здесь будет следующая клиника</span>
-            </div>
-        </div>
+        
     </div>
-    <div class="about">
-        <div class="about_left">
-            <div class="about_text">
-                <h1>О нас</h1>
-                <p>CityClinic - не просто сеть медицинских центров. Это в первую очередь идея сделать медицину понятной и приятной для каждого. CityClinic - сеть клиник для всей семьи, поэтому мы рады всем, даже самым маленьким гостям. Наша цель - помочь каждому посетителю понять, что с ним происходит, по какой причине и что делать, чтобы сохранить красоту и здоровье. Для этого каждый медицинский центр имеет новое современное оборудование, а в работе используются только безопасные и качественные материалы ведущих мировых производителей. Но главная гордость CityClinic - это команда.</p>
-                <p>Наши доктора - признанные специалисты своего дела, которые постоянно практикуются и стажируются в профильных клиниках таких странах как Россия, Германия, Израиль и других. Сотрудники каждого центра делают все, чтобы быть максимально полезными для наших посетителей. А уютная атмосфера и теплый прием сделают каждое посещение CityClinic не только полезным, но и приятным.</p>
-            </div>
-            <div class="about_img">
-                <div class="about_union">
-                    <img src="img/MaskGroup_3.png">
-                </div>
-                <div class="about_union_rectangle">
 
+    <div class="about">
+        <div class="container">
+            <div class="about_wrap">
+                <div class="about_text">
+                    <h1>О нас</h1>
+                    <p>CityClinic - не просто сеть медицинских центров. Это в первую очередь идея сделать медицину понятной и приятной для каждого. CityClinic - сеть клиник для всей семьи, поэтому мы рады всем, даже самым маленьким гостям. Наша цель - помочь каждому посетителю понять, что с ним происходит, по какой причине и что делать, чтобы сохранить красоту и здоровье. Для этого каждый медицинский центр имеет новое современное оборудование, а в работе используются только безопасные и качественные материалы ведущих мировых производителей. Но главная гордость CityClinic - это команда.</p>
+                    <p>Наши доктора - признанные специалисты своего дела, которые постоянно практикуются и стажируются в профильных клиниках таких странах как Россия, Германия, Израиль и других. Сотрудники каждого центра делают все, чтобы быть максимально полезными для наших посетителей. А уютная атмосфера и теплый прием сделают каждое посещение CityClinic не только полезным, но и приятным.</p>
                 </div>
-                <div class="about_arrow">
-                    <img src="img/arrow-point-to-right.svg">
-                </div>
-            </div>
-            <div class="about_mobile_arrow_img">
-                <div class="about_mobile_arrow">
+                <div class="about_slider">
+                    <img src="img/MaskGroup_3.png">
+
                     <div class="about_union_rectangle">
     
-                    </div> 
-                    <div class="about_arrow">
+                    </div>
+                    <a href="" class="about_arrow">
                         <img src="img/arrow-point-to-right.svg">
-                    </div>
-                </div>
-                <img src="img/about_mobile.png">
+                    </a>
+                </div>                
             </div>
-            
-        </div>
-        <div class="about_right">
-            <div class="about_right_rectangle">
-
-            </div>
-        </div>
-        <div class="about_tablet_lower">
-            <div class="about_tablet_img">
-                <div class="about_union">
-                    <img src="img/Mask Group_tablet.png">
-                </div>
-                <div class="about_union_rectangle">
-
-                </div>
-                <div class="about_arrow">
-                    <img src="img/arrow-point-to-right.svg">
-                </div>
-            </div>
-            <div class="about_tablet_right">
-                <div class="about_right_rectangle">
-
-                </div>
-            </div>
-        </div>
+        </div>        
     </div>
+
     <div class="advantages">
-        <h1>Преимущества</h1>
-        <div class="upper_advantages">
-            <div class="advantage">
-                <img src="img/professional.svg">
-                <h1>Профессионализм</h1>
-                <span>Врачи, влюбленные в свое дело и постоянно совершенствующие свои навыки и знания</span>
+        <div class="container_column">
+            <h1>Преимущества</h1>
+            <div class="upper_advantages">
+                <div class="advantage">
+                    <img src="img/professional.svg">
+                    <h1>Профессионализм</h1>
+                    <span>Врачи, влюбленные в свое дело и постоянно совершенствующие свои навыки и знания</span>
+                </div>
+                <div class="advantage">
+                    <img src="img/open_mind.svg">
+                    <h1>Открытость</h1>
+                    <span>Мы хотим, чтобы вы понимали, что с вами происходит, зачем нужно обследоваться и лечиться и почему это стоит именно столько</span>
+                </div>
+                <div class="advantage">
+                    <img src="img/individual.svg">
+                    <h1>Индивидуальный подход</h1>
+                    <span>Мы не будем общаться по шаблонам, но будем учитывать все ваши особенности при консультации, обследовании и лечении</span>
+                </div>
             </div>
-            <div class="advantage">
-                <img src="img/open_mind.svg">
-                <h1>Открытость</h1>
-                <span>Мы хотим, чтобы вы понимали, что с вами происходит, зачем нужно обследоваться и лечиться и почему это стоит именно столько</span>
+            <div class="lower_advantages">
+                <div class="advantage">
+                    <img src="img/progress.svg">
+                    <h1>Прогрессивный подход</h1>
+                    <span>Мы не боимся использовать новые современные оборудование, материалы и методы, если доказана их эффективность и безопасность</span>
+                </div>
+                <div class="advantage">
+                    <img src="img/rassrochka.svg">
+                    <h1>Рассрочка платежа</h1>
+                    <span>Красота и здоровье сразу, а оплата в удобное время</span>
+                </div>
+                <div class="advantage">
+                    <img src="img/family.svg">
+                    <h1>Семейная сеть</h1>
+                    <span>Наша программа скидок действует во всех центрах вне зависимости от региона и направления услуг</span>
+                </div>
             </div>
-            <div class="advantage">
-                <img src="img/individual.svg">
-                <h1>Индивидуальный подход</h1>
-                <span>Мы не будем общаться по шаблонам, но будем учитывать все ваши особенности при консультации, обследовании и лечении</span>
-            </div>
-        </div>
-        <div class="lower_advantages">
-            <div class="advantage">
-                <img src="img/progress.svg">
-                <h1>Прогрессивный подход</h1>
-                <span>Мы не боимся использовать новые современные оборудование, материалы и методы, если доказана их эффективность и безопасность</span>
-            </div>
-            <div class="advantage">
-                <img src="img/rassrochka.svg">
-                <h1>Рассрочка платежа</h1>
-                <span>Красота и здоровье сразу, а оплата в удобное время</span>
-            </div>
-            <div class="advantage">
-                <img src="img/family.svg">
-                <h1>Семейная сеть</h1>
-                <span>Наша программа скидок действует во всех центрах вне зависимости от региона и направления услуг</span>
-            </div>
-        </div>
+        </div>        
     </div>
-    <div class="footer">
-        <div class="footer_logo">
-            <img src="img/logo.svg">
-            <span>© 2019 ООО «Клиника Здоровья». Все права защищены.</span>
-            <a href="">
-                <img class="csf" src="img/csf.svg">
-            </a>
-        </div>
-        <div class="footer_links">
-            <div class="upper_links">
-                <div class="med_links med_1">
-                    <h1>Медицинский центр Минск</h1>
-                    <div class="links">
-                        <a href="">Гинекология</a>
-                        <a href="">Урология</a>
-                        <a href="">Педиатрия</a>
-                        <a href="">Неврология</a>
-                        <a href="">Эндокринология</a>
-                        <a href="">Терапия</a>
-                        <a href="">УЗ-диагностика</a>
-                    </div>
-                </div>
-                <div class="med_links med_2">
-                    <h1>Стоматология Витебск</h1>
-                    <div class="links">
-                        <a href="">Лечение зубов</a>
-                        <a href="">Детская стоматология</a>
-                        <a href="">Имплантация</a>
-                        <a href="">Протезирование металлокерамическими и безметаллическими конструкциями</a>
-                        <a href="">Хирургическая стоматология</a>
-                        <a href="">Эстетическая стоматология</a>
-                        <a href="">Забота о полости рта</a>
-                        <a href="">Рентгенодиагностика</a>
-                    </div>
-                </div>
-                <div class="med_links med_3">
-                    <h1>Медицинский центр Витебск</h1>
-                    <div class="links">
-                        <a href="">Значимость этих проблем</a>
-                        <a href="">Настолько очевидна</a>
-                        <a href="">Развитие различных</a>
-                        <a href="">Значимость этих проблем</a>
-                        <a href="">Настолько очевидна</a>
-                        <a href="">Развитие различных</a>
-                    </div>
-                </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_col">
+               <div class="footer_upper_col">
+                <a href="">
+                    <img src="img/logo.svg">
+                </a>
+                <span>© 2019 ООО «Клиника Здоровья». Все права защищены.</span>
+                
+               </div> 
+               <div class="footer_lower_col">
+                <a href="">
+                    <img class="csf" src="img/csf.svg">
+                </a>
+                </div> 
             </div>
-            <div class="lower_links">
-                <div class="working_hours_med med_1">
-                    <h1 class="med_links_mobile">Медицинский центр Минск</h1>
-                    <span>Работаем ПН-ПТ: 8:00 — 20:00</span>
-                    <span>СБ: 9:00 — 15:00</span>
-                    <div class="phone_number_footer">
+            <div class="footer_col">
+                <div class="footer_upper_col">
+                    <a href="" class="title">Медицинский центр Минск</a>
+                    <ul class="links">
+                        <li><a href="">Гинекология</a></li>
+                        <li><a href="">Урология</a></li>
+                        <li><a href="">Педиатрия</a></li>
+                        <li><a href="">Неврология</a></li>
+                        <li><a href="">Эндокринология</a></li>
+                        <li><a href="">Терапия</a></li>
+                        <li><a href="">УЗ-диагностика</a></li>
+                    </ul>
+                </div> 
+                <div class="footer_lower_col">
+                    <div>
+                        <span>Работаем ПН-ПТ: 8:00 — 20:00</span>
+                        <span>СБ: 9:00 — 15:00</span>
+                    </div>
+                    
+                    <div class="phone">
                         <a href="">+375 29 <strong>390-05-80</strong></a>
                         <a href="">+375 29 <strong>835-05-80</strong></a>
+                        <a class="email" href="" style="color: white;">infominsk@cityclinic.by</a>
                     </div>
-                    <a class="a_email" href="">infominsk@cityclinic.by</a>
-                </div>
-                <div class="working_hours_med med_2">
-                    <h1 class="med_links_mobile">Стоматология Витебск</h1>
-                    <span>Работаем ПН-ПТ: 8:00 — 20:00</span>
-                    <span>СБ: 9:00 — 15:00</span>
-                    <div class="phone_number_footer">
+                    
+                </div> 
+            </div>
+            <div class="footer_col">
+                <div class="footer_upper_col">
+                    <a href="" class="title">Стоматология Витебск</a>
+                    <ul class="links">
+                        <li><a href="">Лечение зубов</a></li>
+                        <li><a href="">Детская стоматология</a></li>
+                        <li><a href="">Имплантация</a></li>
+                        <li><a href="">Протезирование металлокерамическими и безметаллическими конструкциями</a></li>
+                        <li><a href="">Хирургическая стоматология</a></li>
+                        <li><a href="">Эстетическая стоматология</a></li>
+                        <li><a href="">Забота о полости рта</a></li>
+                        <li><a href="">Рентгенодиагностика</a></li>
+                    </ul>
+                    
+                </div> 
+                <div class="footer_lower_col">
+                    <div>
+                        <span>Работаем ПН-ПТ: 8:00 — 20:00</span>
+                        <span>СБ: 9:00 — 15:00</span>
+                    </div>
+                    
+                    <div class="phone">
                         <a href="">+375 29 <strong>615-02-42</strong></a>
                         <a href="">+375 33 <strong>615-02-42</strong></a>
                         <a href="">+375 25 <strong>615-02-42</strong></a>
+                        <a class="email" href="" style="color: white;">info@cityclinic.by</a>
                     </div>
-                    <a class="a_email" href="">info@cityclinic.by</a>
-                </div>
-                <div class="working_hours_med med_3">
-                    <h1 class="med_links_mobile">Медицинский центр Витебск</h1>
-                    <span>Режим работы: 8:00 — 21:00</span>
-                    <div class="phone_number_footer">
+                    
+                </div> 
+            </div>
+            <div class="footer_col">
+                <div class="footer_upper_col">
+                    <a href="" class="title">Медицинский центр Витебск</a>
+                    <ul class="links">
+                        <li><a href="">Значимость этих проблем</a></li>
+                        <li><a href="">Настолько очевидна</a></li>
+                        <li><a href="">Развитие различных</a></li>
+                        <li><a href="">Значимость этих проблем</a></li>
+                        <li><a href="">Настолько очевидна</a></li>
+                        <li><a href="">Развитие различных</a></li>
+                    </ul>
+
+                </div> 
+                <div class="footer_lower_col">
+                    <div>
+                        <span>Режим работы: 8:00 — 21:00</span>
+                    </div>
+                    
+                    <div class="phone">
                         <a href="">+375 29 <strong>615-02-42</strong></a>
                         <a href="">+375 33 <strong>615-02-42</strong></a>
+                        <a class="email" href="" style="color: white;">helo@cityclinic.com</a>
                     </div>
-                    <a class="a_email" style="margin-top: 33px;" href="">helo@cityclinic.com</a>
-                </div>
+                </div> 
             </div>
-        </div>
-        
-    </div>
-    <div class="footer_tablet">
-        <div class="footer_tablet_logo">
-            <img src="img/logo.svg">
-            <span>© 2019 ООО «Клиника Здоровья». Все права защищены.</span>
-        </div>
-        <a href="">
-            <img class="csf_tablet" src="img/csf.svg">
-        </a>
-    </div>
-    <div class="footer_mobile">
-        <img src="img/logo.svg">
-        <div class="footer_tablet_logo">    
-            <span>© 2019 ООО «Клиника Здоровья». Все права защищены.</span>
-            <a href="">
-                <img class="" src="img/csf.svg">
-            </a>
-    </div>
-        
-    </div>
+        </div>        
+    </footer>
+
+
 </body>
 </html>
