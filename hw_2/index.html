@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
 
     <header>
+        
         <div class="contact_header">
             <div class="container">
                 <div class="social_networks">
@@ -35,25 +36,79 @@
                     <img src="img/logo.svg" alt="Logo">
                 </a>
                 <div class="menu_buttons">
+                    <a href="#our_clinics">Центры</a>
+                    <a href="#about">О нас</a>
+                    <a href="#advantages">Преимущества</a>
+                </div>  
+                <div class="menu_buttons_mobile">
+                    <a href="#popup-fade" class="booking_button">
+                        Записаться
+                    </a>
+
+                    
+
+                    <a href="#openMobile" class="menu_button">
+                        <img src="./img/menu_button_mobile.svg">
+                    </a>
+                </div>
+                
+                <div class="menu_nav_mobile" id="openMobile">
                     <a href="">Центры</a>
                     <a href="">О нас</a>
                     <a href="">Преимущества</a>
-                </div>  
-                <div class="menu_buttons_mobile">
-                    <a href="" class="booking_button">
-                        Записаться
+                    <a href="#menu_nav_mobile-close" class="close_button">
+                        <img src="./img/menu_button_mobile.svg">
                     </a>
-                    <div class="menu_button">
-                        <img src="img/menu_button_mobile.svg">
-                    </div>
+                                    
                 </div>
                 
             </div>
         </div>
         
     </header>
+
+    
+    
+    <div class="popup-fade" id="popup-fade">
+        <div class="modal_container" id="modal_container">
+            <div class="booking_modal" id="booking_modal">
+                
+                <div class="modal_container modal_header">
+                    <h1>Записаться на прием</h1>
+                    <span>Оставьте заявку и мы свяжемся с Вами</span>
+                </div>
+
+                <div class="modal_container align_start">
+                    <label>Выбор центра:</label>
+                    <select>
+                        <option value="г. Минск, ул. Жиновича, д. 21">г. Минск, ул. Жиновича, д. 21</option>
+                        <option value="г. Минск, ул. Жиновича, д. 21">г. Минск, ул. Жиновича, д. 22</option>
+                        <option value="г. Минск, ул. Жиновича, д. 21">г. Минск, ул. Жиновича, д. 23</option>
+                    </select>
+
+                    <label>Ваше имя:</label>
+                    <input type="text" name="name" placeholder="Ваше имя" >
+
+                    <label>Ваш номер телефона:</label>
+                    <input type="tel" placeholder="Контактный телефон">
+                </div>
+                
+                
+                <div class="modal_container_row">
+                    <a href="#booking_modal-close" class="record_button">
+                        Отправить
+                    </a>
+                    <a href="#booking_modal-close" class="close_button">
+                        Закрыть
+                    </a>
+                </div>
+                                
+            </div>
+        </div>
+    </div>
+    
         
-    <div class="our_clinics">
+    <section class="our_clinics" id="our_clinics">
         <div class="container_column">
             <div class="upper_clinics">
                 <div class="first_clinic">
@@ -123,7 +178,7 @@
                         <a href="" class="site_button">
                             Перейти на сайт
                         </a>
-                        <a href="" class="record_button">
+                        <a href="#popup-fade" class="record_button">
                             Записаться на прием
                         </a>
                     </div>
@@ -196,7 +251,7 @@
                         <a href="" class="site_button">
                             Перейти на сайт
                         </a>
-                        <a href="" class="record_button">
+                        <a href="#popup-fade" class="record_button">
                             Записаться на прием
                         </a>
                     </div>
@@ -271,7 +326,7 @@
                         <a href="" class="site_button">
                             Перейти на сайт
                         </a>
-                        <a href="" class="record_button">
+                        <a href="#popup-fade" class="record_button">
                             Записаться на прием
                         </a>
                     </div>
@@ -283,9 +338,9 @@
             </div>
         </div>
         
-    </div>
+    </section>
 
-    <div class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about_wrap">
                 <div class="about_text">
@@ -305,9 +360,9 @@
                 </div>                
             </div>
         </div>        
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container_column">
             <h1>Преимущества</h1>
             <div class="upper_advantages">
@@ -345,7 +400,7 @@
                 </div>
             </div>
         </div>        
-    </div>
+    </section>
 
     <footer>
         <div class="container">
